@@ -38,7 +38,7 @@ public class NewServlet extends HttpServlet {
         // おまじないとしてのインスタンスを作成
         request.setAttribute("message", new Message());
 
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/messaeg/new.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/messages/new.jsp");
         rd.forward(request, response);
     }
 
